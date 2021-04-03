@@ -18,13 +18,13 @@
 					<br/>
 					<div class="form-row">
 					    <div class="col-4">
-					      <input type="text" class="form-control" id="oppStartDate" name="oppStartDate" placeholder="Start Date in DD/Month/YY format" required>
+					     <b>Opportunity Start date:</b> <input type="date" class="form-control" id="oppStartDate" name="oppStartDate" >
 					    </div>
 					    <div class="col-4">
-					      <input type="text" class="form-control" id="oppEndDate" name="oppEndDate" placeholder="End Date in DD/Month/YY format" required>
+					     <b>Opportunity Start date:</b> <input type="date" class="form-control" id="oppEndDate" name="oppEndDate" >
 					    </div>
 					    <div class="col-4">
-					      <input type="text" class="form-control" id="oppDailyHrs" name="oppDailyHrs" placeholder="Daily hours expected" required>
+					      <b>Availability:</b><input type="text" class="form-control" id="oppDailyHrs" name="oppDailyHrs" placeholder="Daily hours expected" required>
 					    </div>
 					 </div>
 					 <br/>
@@ -51,7 +51,7 @@
 					 
 				</div>
 				</div>
-				<br/>
+				
 				<div align="center"> <button type="submit" class="btn btn-primary">Create</button> </div>
 			    
 			  </form>
@@ -69,6 +69,11 @@
  		</c:otherwise>
  </c:choose>   
 
+<script type="text/javascript">
+$('#oppStartDate').datepicker({
+  format: 'mm-dd-yyyy'
+});
+</script>
 
 
 <%@ include file="common/footer.jspf"%>
