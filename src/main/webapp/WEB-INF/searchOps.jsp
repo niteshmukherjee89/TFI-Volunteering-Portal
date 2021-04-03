@@ -6,7 +6,7 @@
 <p align="center">
 <i>Tip: If you aren't sure of the criterias, hit the search button to view all available Opportunities </i>
 </p>
-<br/><br/>
+<br/>
 <div class="container">
 <form method="post" action="searchOpportunities">
 
@@ -33,13 +33,13 @@
   		<b>Timeline Details:</b>
   		<div class="form-row">
 		  	<div class="col-3">
-		      <input type="text" class="form-control" id="startDate" name="startDate" placeholder="Start date in DD/Mon/YY format">
+		     <b>Opportunity Start date:</b> <input type="date" class="form-control" id="startDate" name="startDate" >
 		    </div>
 		    <div class="col-3">
-		      <input type="text" class="form-control" id="endDate" name="endDate" placeholder="End date in DD/Mon/YY format">
+		     <b>Opportunity End date:</b> <input type="date" class="form-control" id="endDate" name="endDate" >
 		    </div>
 		    <div class="col-3">
-		      <input type="text" class="form-control" id="dailyHrs" name="dailyHrs" placeholder="Daily hours expectations">
+		      <b>Availability Expectations</b><input type="text" class="form-control" id="dailyHrs" name="dailyHrs" placeholder="Daily hours expectations">
 		    </div>
 		 </div>
 	</div>
