@@ -1,0 +1,12 @@
+<br/><br/>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="/volunteerOpportunityPortal">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/searchOps">Search Opportunities</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/createOpsLogin">Create Opportunity</a>
+  </li>
+</ul>
