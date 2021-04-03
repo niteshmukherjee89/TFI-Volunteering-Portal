@@ -9,9 +9,7 @@ oppDailyHrs varchar(100) NOT NULL,
 oppLocationArea varchar(2000) NOT NULL,
 oppLocationCity varchar(1000) NOT NULL,
 oppLocationState varchar(500) NOT NULL,
-oppCreatorEmail varchar(100) NOT NULL,
-	
-
+oppCreatorEmail varchar(100) NOT NULL
 );
 
 
