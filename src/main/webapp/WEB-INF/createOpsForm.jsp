@@ -21,7 +21,7 @@
 					     <b>Opportunity Start date:</b> <input type="date" class="form-control" id="oppStartDate" name="oppStartDate" >
 					    </div>
 					    <div class="col-4">
-					     <b>Opportunity Start date:</b> <input type="date" class="form-control" id="oppEndDate" name="oppEndDate" >
+					     <b>Opportunity End date:</b> <input type="date" class="form-control" id="oppEndDate" name="oppEndDate" >
 					    </div>
 					    <div class="col-4">
 					      <b>Availability:</b><input type="text" class="form-control" id="oppDailyHrs" name="oppDailyHrs" placeholder="Daily hours expected" required>
